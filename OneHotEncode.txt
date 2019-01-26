@@ -1,0 +1,10 @@
+columns=["channelGrouping", "device.browser", "device.deviceCategory", "device.isMobile", "device.operatingSystem", "geoNetwork.continent", "geoNetwork.country", "geoNetwork.city", "geoNetwork.metro", "geoNetwork.region", "geoNetwork.subContinent", "trafficSource.adContent", "trafficSource.adwordsClickInfo.adNetworkType", "trafficSource.adwordsClickInfo.isVideoAd", "trafficSource.adwordsClickInfo.page", "trafficSource.adwordsClickInfo.slot", "trafficSource.campaign", "trafficSource.isTrueDirect", "trafficSource.medium"]
+
+prefix=["channel", "devBrowser", "devCat", "devMob", "devOS", "geoCon", "geoCountry", "geoCity", "geoMetro", "geoReg", "geoSubCon", "adContent", "adNetworkType", "videoAd",  "page", "slot", "campaign", "trueDirect",  "medium"])
+
+
+Drop Columns:
+columns = {"trafficSource.keyword", "trafficSource.referralPath", "trafficSource.source", "visitStartTime", "date", "geoNetwork.networkDomain", "trafficSource.adwordsClickInfo.gclId"}
+
+float
+sparse
